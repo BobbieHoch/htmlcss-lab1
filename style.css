@@ -32,29 +32,25 @@ li{
   }
 
 .content{
-    
     width:80%;
     color:#69696a;
     padding:0px 5px;
     Margin:15px;
-    
     font-size: 20px;
 }
+
 p
-{
+    {
     margin-left: 15px;
     border-left:solid;
-}
-
+    }
 
 h2{
     width:80%;
     background-color: #000;
     border-radius: 20px;
     color: #fff;
-
 }
-
 
 .hireUs{
     width:90%;
@@ -107,9 +103,9 @@ p{
         /* align-items:flex-end; */
         justify-content: end;
     }
-    .navbar {
+    /* .navbar {
 
-    }
+    } */
     .hireUs{
         width: 10%;
         justify-content: flex-start; 
@@ -127,7 +123,7 @@ p{
         flex-direction: row;
         margin-right: 5px;
         color:#69696a;
-    
+    }
     .title{
         margin-left: 40px; 
     }
@@ -138,7 +134,6 @@ p{
         height: 100px;
         width: 100px;
         display: flexbox;
-      
         background-color: rgba(247, 136, 167, 0.6);  position: fixed;
         bottom: 58%;
     }
@@ -156,5 +151,4 @@ p{
         background: rgba(207, 130, 213, 0.6);
 
     }
-    
-
+}
