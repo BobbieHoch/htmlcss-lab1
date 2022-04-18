@@ -1,0 +1,159 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    font-size: 1.5em;
+    padding:1.5em .5em;
+}
+li{
+    padding: 10px;
+}
+.title{
+    color: #000;
+    font-size: 1.2em;
+    margin-left:40px;
+    margin-bottom: 0px;
+  
+}
+.links{
+    color:#69696a;
+    display: flex;
+    flex-direction: column;
+    border:2.5em;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+    
+  }
+
+.content{
+    
+    width:80%;
+    color:#69696a;
+    padding:0px 5px;
+    Margin:15px;
+    
+    font-size: 20px;
+}
+p
+{
+    margin-left: 15px;
+    border-left:solid;
+}
+
+
+h2{
+    width:80%;
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+
+}
+
+
+.hireUs{
+    width:90%;
+    background-color: #000;
+    border-radius: 10px;
+}
+.actionButton{
+    width:90%;
+    background-color: #000;
+    border-radius: 10px;
+} 
+ button{
+    width:90%;
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff; 
+
+}
+.chirpusTag{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.linksFooter{
+    display: flex;
+    justify-items: end;
+    flex-direction: row;
+    margin:auto;
+    background-color:rgba(247, 193, 162, 0.7) ;
+}
+.bottomNavbar{
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    Margin:0px;
+    background-color:rgba(247, 193, 162, 0.7) ;
+}
+p{
+    border-left: #000;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .links{
+        width: 50%;
+        /* justify-content: flex-end; */
+        flex-direction: row;
+        /* align-items:flex-end; */
+        justify-content: end;
+    }
+    .navbar {
+
+    }
+    .hireUs{
+        width: 10%;
+        justify-content: flex-start; 
+        float: right;
+    }
+    .actionButton{
+        background-color: #000;
+        border-radius: 10px;
+        width:50%;
+    }
+
+    .linksFooter{
+        display: flex;
+        align-content: space-around;
+        flex-direction: row;
+        margin-right: 5px;
+        color:#69696a;
+    
+    .title{
+        margin-left: 40px; 
+    }
+    .circle{
+        border-radius:50%;
+    }
+    .circle1 {
+        display: flexbox;
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        color: rgba(247, 136, 167, 0.6);
+    }
+    .circle2{
+        display: flexbox;
+        width: 150px;
+        height: 150px;
+        color: rgba(247, 193, 162, 0.7);
+
+    }
+    .circle3  {
+        display: flexbox;
+        width:50px;
+        height: 50px;
+        background: rgba(207, 130, 213, 0.6);
+
+    }
+    
+
