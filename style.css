@@ -135,11 +135,12 @@ p{
         border-radius:50%;
     }
     .circle1 {
-        display: flexbox;
-        position: fixed;
-        width: 100px;
         height: 100px;
-        color: rgba(247, 136, 167, 0.6);
+        width: 100px;
+        display: flexbox;
+      
+        background-color: rgba(247, 136, 167, 0.6);  position: fixed;
+        bottom: 58%;
     }
     .circle2{
         display: flexbox;
